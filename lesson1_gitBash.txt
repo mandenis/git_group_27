@@ -1,22 +1,22 @@
- 1  pwd
-    cd /d/
+ 1  pwd   показывает директорию в который находишься.
+    cd /d/  выполняет вход в директорию.
     pwd
-2  mkdir group_27
+2  mkdir group_27  создает директорию .
 3  cd /d/group_27
 4  mkdir home_work
 4  mkdir home_work_2
 4  mkdir home_work_3
 5  cd home_work
-6  touch file.txt file_2.txt file_3.txt file_4.json file_5.json
+6  touch file.txt file_2.txt file_3.txt file_4.json file_5.json создает файл.
 7  mkdir dz dz2 dz3
-8  ls -la
-9,10,11  vim file.txt  (start i  finish esc + :wq)
-12 cd ..
-12 cd -
+8  ls -la выводит список содержимого директории.
+9,10,11  vim file.txt  (start i  finish esc + :wq) открыввает текстовый редактор внутри gitbash.
+12 cd .. возврат в директорию на уровнь выше.
+12 cd - перемещает между двумя последними директориями.
    ls -la
-13 mv file.txt file_2.txt /d/group_27/home_work_2
+13 mv file.txt file_2.txt /d/group_27/home_work_2 перемещает/переименовывает файл.
    ls -la
-14 cp {file_3.txt,file_4.json} /d/group_27/home_work_2
+14 cp {file_3.txt,file_4.json} /d/group_27/home_work_2 копирует файл/директорию .
    ls -la
    cd /d/group_27/home_work_2
    ls -la
@@ -24,11 +24,11 @@
    cd -
    touch onlyman.txt
    cd ..
-15 find . -name onl*
+15 find . -name onl* поиск файла/директории.
    pwd
    cd -
-16 tail -f file.txt
-17 cat file.txt | sed -n 1,2p
+16 tail -f file.txt утилита,настаревается с помошью опций. В данном случае -f обновляет информацию по мере появления новых строк.
+17 cat file.txt | sed -n 1,2p взоимедействие двух команд. выводит нконкретные строки из текстого файла.
 18 cat file.txt | sed -n 4,5p
-19 less file.txt
-20 date
+19 less file.txt отоброжает содержимое файла.
+20 date показвыет/задает дату и время.
