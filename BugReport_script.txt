@@ -1,0 +1,5 @@
+cp BugReport.txt /d/git_repozitory/git_group_27/
+cd /d/git_repozitory/git_group_27/
+git checkout BugReports
+git add . && git commit -m "new_config"
+git push
