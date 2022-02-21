@@ -1,1 +1,2 @@
-git push -u origin head
+git push -u origin head  не изучено
+git add . && git commit -m ""  одновременно индент. и комит
