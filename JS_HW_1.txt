@@ -1,4 +1,4 @@
-                       Практическая задача - Работа с переменными
+                       Практическая задача - Работа с переменными/окружение google browser console.
 
 Создайте четыре переменные.
 
@@ -12,9 +12,9 @@
 
 
 # let day = 365 , planet = "Earth" , residents = "7kkk" , star = "sun" ;
-# let text = "Our year has" + " " + day + " " + "days." + " " + "During the 
-# day the" + " " + star + " " + "shines." + " " + "The population of the 
-# planet" + " " + planet + " " + "is approximately" + " " + residents + " " + "people."; 
+# let text = "Our year has " + day + "days." + " During the 
+# day the" + star + "shines." + " The population of the 
+# planet " + planet + " is approximately " + residents + " " people."; 
 # alert (text);
 
 
